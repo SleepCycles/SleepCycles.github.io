@@ -223,6 +223,9 @@ body:last-child .cover:after, x:-moz-any-link {
   float: left;
   width: 100%;
   height: 100%;
-  margin: auto;
-  margin-top: 100px;
+
+}
+
+.logo {
+  float:none;
 }
