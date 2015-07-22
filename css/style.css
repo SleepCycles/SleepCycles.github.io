@@ -1,0 +1,224 @@
+@import url(http://weloveiconfonts.com/api/?family=Brandico);
+/* Brandico */
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=Font Awesome);
+@import url(http://weloveiconfonts.com/api/?family=Fontelico);
+@import url(http://weloveiconfonts.com/api/?family=Iconic Fill);
+@import url(http://weloveiconfonts.com/api/?family=Iconic Stroke);
+@import url(http://weloveiconfonts.com/api/?family=Maki);
+@import url(http://weloveiconfonts.com/api/?family=OpenWeb Icons);
+@import url(http://weloveiconfonts.com/api/?family=Typicons);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+[class*="Brandico-"]:before {
+  font-family: "Brandico", sans-serif;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: "entypo", sans-serif;
+}
+
+/* Font Awesome */
+[class*="Font Awesome-"]:before {
+  font-family: "Font Awesome", sans-serif;
+}
+
+/* Fontelico */
+[class*="Fontelico-"]:before {
+  font-family: "Fontelico", sans-serif;
+}
+
+/* Iconic Fill */
+[class*="Iconic Fill-"]:before {
+  font-family: "Iconic Fill", sans-serif;
+}
+
+/* Iconic Stroke */
+[class*="Iconic Stroke-"]:before {
+  font-family: "Iconic Stroke", sans-serif;
+}
+
+/* Maki */
+[class*="Maki-"]:before {
+  font-family: "Maki", sans-serif;
+}
+
+/* OpenWeb Icons */
+[class*="OpenWeb Icons-"]:before {
+  font-family: "OpenWeb Icons", sans-serif;
+}
+
+/* Typicons */
+[class*="Typicons-"]:before {
+  font-family: "Typicons", sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: "zocial", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  font-family: Helvetica,Helvetica Neue sans-serif;
+}
+
+html {
+  font-size: 1rem;
+}
+
+
+
+.cover {
+  width: 360px;
+  height: 300px;
+  background: #E5E5E5;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  perspective: 800px;
+  margin: 4em auto;
+  box-shadow: 0 1em 4em rgba(0, 0, 0, 0.4);
+}
+.cover:before {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/64/3298499001401_600.jpg) no-repeat left center;
+  background-size: 200%;
+  box-shadow: inset 0 8px 0 #E1E1E1, inset 8px 0 0 #E1E1E1, inset 0 -8px 0 #E1E1E1;
+}
+.cover:after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  float: left;
+  /* The lines below should have been these :
+
+      position: relative;
+      margin-top: -$size-h;
+
+  But, if you use them, you will notice a strange
+  bug on webkit browsers, when you hover the cover.
+
+  The problem is, with position:absolute, it makes
+  the cover bug on Mozilla..
+  So I use a css hack at the bottom of the page to
+  fix the cover behaviour on Mozilla
+
+  More about css hacks ? : http://browserhacks.com/
+  */
+  position: absolute;
+  margin-top: -281.69014px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/64/3298499001401_600.jpg) no-repeat right center;
+  background-size: 200%;
+  margin-left: 180px;
+  box-shadow: inset 0 8px 0 #E1E1E1, inset -8px 0 0 #E1E1E1, inset 0 -8px 0 #E1E1E1;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+.cover:hover:after {
+  -webkit-transform: rotateY(-65deg);
+  -moz-transform: rotateY(-65deg);
+  -ms-transform: rotateY(-65deg);
+  -o-transform: rotateY(-65deg);
+  transform: rotateY(-65deg);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  box-shadow: inset 0 8px 0 #E1E1E1, inset -8px 0 0 #E1E1E1, inset 0 -8px 0 #E1E1E1, inset 6em 0 5em rgba(0, 0, 0, 0.3), 3em 0 2.5em rgba(0, 0, 0, 0.25);
+}
+.cover .inner-controls {
+  position: relative;
+  height: 94%;
+}
+.cover .inner-controls ul {
+  float: right;
+  height: 100%;
+  width: 90px;
+  margin-top: -0.06122px;
+  padding: 0 0;
+}
+.cover .inner-controls ul li {
+  font-size: 3em;
+  padding: 0 0;
+  float: left;
+  list-style: none;
+  height: 35.5%;
+  width: 100%;
+  background: #E5E5E5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+  text-align: center;
+  line-height: 2;
+}
+.cover .inner-controls ul li:hover {
+  background: #d8d8d8;
+}
+.cover .inner-controls ul li:hover a {
+  color: #b4b4b4;
+}
+.cover .inner-controls ul li:active {
+  background: #cecece;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3), inset 0.2em 0.2em 0.4em rgba(0, 0, 0, 0.25);
+}
+.cover .inner-controls ul li:active a {
+  color: #aaaaaa;
+}
+.cover .inner-controls ul li a {
+  text-decoration: none;
+  color: #C1C1C1;
+  text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.8);
+  float: left;
+  width: 100%;
+  height: 100%;
+  line-height: 2;
+}
+
+/*
+A small css hack to fix a bug
+on mozilla
+---------------------------------*/
+body:last-child .cover:after, x:-moz-any-link {
+  position: relative;
+  margin-top: -300px;
+}
+
+
+
+.twitter-timeline {
+    float: right;
+}
+.instansive-widget {
+  float: left;
+}
