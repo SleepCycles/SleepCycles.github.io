@@ -329,12 +329,14 @@ h5 {
 
 .example1 {
   position: relative;
+  float: left;
+  margin-left: 300px;
 
 }
 .example1:before, .example1:after {
   content: "";
   position: absolute;
-  
+
   top: 0;
   bottom: 0;
   width: 9999px;
@@ -462,4 +464,138 @@ h5 {
   -webkit-font-smoothing: antialiased;
   content: "";
   padding-right: 4px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+pro);
+@import url(http://markmurray.co/codepen/entypostyle.css);
+/* Display: flex Mixin */
+a, a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  display: block;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+}
+
+#instafeed {
+margin: auto;
+}
+#instafeed a {
+  margin: 0.5em 0.5em;
+
+  overflow: hidden;
+  display: inline-block;
+  width: calc(100%/4 - 1em);
+}
+#instafeed #filter {
+  background: #1abc9c;
+  color: white;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0.5em 0;
+  position: absolute;
+  top: 1em;
+  width: 100%;
+  left: -42%;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#instafeed .info {
+  background: white;
+  padding: 1.5em;
+}
+#instafeed .info p {
+  font-size: 0.8em;
+  line-height: 1.45;
+  font-weight: bolder;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+#instafeed .info .location {
+  color: #777;
+  font-weight: 400;
+}
+#instafeed .info [class*="icon-heart"]:before {
+  color: hotpink;
+}
+#instafeed .info [class*="icon-chat"]:before {
+  color: #3498db;
+}
+#instafeed .info [class*="icon-comment"]:before {
+  color: #ccc;
+}
+#instafeed .info [class*="icon-location"]:before {
+  color: #ccc;
+}
+#instafeed .info [class*="icon-"]:before {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+#instafeed .info ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#instafeed .info ul li {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: calc(100% / 2 - 2em);
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 1em 0;
+  border-top: 1px solid #eaeaea;
+}
+#instafeed .info ul li:hover {
+  background: #f5f5f5;
+}
+#instafeed .info ul li:first-child {
+  border-right: 1px solid #eaeaea;
+}
+#instafeed img {
+  display: inline;
+  margin-bottom: -3px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  #instafeed a {
+    width: calc(100%/5 - 1em);
+  }
+}
+@media screen and (max-width: 1200px) {
+  #instafeed a {
+    width: calc(100%/3 - 1em);
+  }
+}
+@media screen and (max-width: 800px) {
+  #instafeed a {
+    width: calc(100%/2 - 1em);
+  }
+}
+@media screen and (max-width: 480px) {
+  #instafeed a {
+    width: calc(100% - 1em);
+  }
 }

@@ -96,3 +96,30 @@ twitterFetcher.fetch(config1);
 // mentions and hashtags but does not display time of post. We also make the
 // request to Twitter specifiying we would like results where possible in
 // English language.
+
+
+
+
+var instaFeed = new Instafeed({
+			        get: 'user',
+			        userId: 1419653544,
+			        accessToken: '6678174.467ede5.205a03ebc4b74d4082823781c3149575',
+			        target: 'instafeed',
+			        sortBy: 'most-recent',
+			        limit: 1,
+			        resolution: 'standard_resolution',
+  template: '<a class="fancybox" href="{{image}}"><img src="{{image}}" /><div id="filter">{{model.filter}}</div><div class="info"><p class="location"><i class="icon-location"></i>{{location}}</p><p><i class="icon-comment"></i>{{caption}}</p><br><ul><li class="icon-heart">{{likes}} likes<li class="icon-chat">{{comments}} comments</ul></div></a>'
+}).run();
+
+$.fn.extend({
+  matchHeight: function(data){
+    var maxHeight = 0;
+    $(this).each(function() {
+       maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+    });
+   $(this).height(maxHeight);
+  }
+});
+
+
+   
