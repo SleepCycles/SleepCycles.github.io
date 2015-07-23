@@ -329,12 +329,12 @@ h5 {
 
 .example1 {
   position: relative;
-  background: #ecf0f1;
+
 }
 .example1:before, .example1:after {
   content: "";
   position: absolute;
-  background: #ecf0f1;
+  
   top: 0;
   bottom: 0;
   width: 9999px;
