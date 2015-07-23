@@ -222,3 +222,18 @@ img.logo {
   margin-right: auto;
   padding: 10px;
 }
+
+a.twitter-timeline {
+
+  padding: 30px;
+}
+
+.images {
+  padding: 10px;
+}
+
+
+#gallery {
+  text-align: center;
+  
+}
