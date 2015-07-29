@@ -228,8 +228,8 @@ img.logo {
 }
 
 nav {
- margin: auto;
-  margin-left: 400px;
+
+  margin-left: 470px;
   margin-bottom: 30px;
   margin-top: 40px;
 
@@ -269,7 +269,7 @@ nav {
 }
 
 .sections li a:hover {
-  color: #dc970f;
+  color: #aaa;
 }
 
 .sections li.active a {
@@ -339,7 +339,7 @@ h5 {
   position: relative;
   border-radius: 6px;
   box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.4);
-  margin-left: 230px;
+  margin: auto;
 }
 #tw-widget1 a {
   text-decoration: none;
@@ -356,7 +356,6 @@ h5 {
   display: block;
   top: 0;
   text-align: left;
-
 }
 #tw-widget1 .user a span[data-scribe="element:name"] {
   position: absolute;
@@ -365,8 +364,6 @@ h5 {
   font-size: 16px;
   color: white;
   font-weight: bold;
-
-
 }
 #tw-widget1 .user a span[data-scribe="element:screen_name"] {
   position: absolute;
@@ -469,10 +466,10 @@ img.center {
 .para {
   text-align: center;
   width: 700px;
-  margin: 300px;
-  margin-top: 210px;
   color: #333;
   font-size: 20px;
+  margin-left: 26%;
+  margin-top: 20px;
 }
 
 html {
