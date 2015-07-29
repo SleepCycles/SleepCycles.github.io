@@ -229,7 +229,7 @@ img.logo {
 
 nav {
  margin: auto;
-  margin-left: 440px;
+  margin-left: 400px;
   margin-bottom: 30px;
   margin-top: 40px;
 
@@ -238,6 +238,7 @@ nav {
 .sections ul {
   overflow: auto;
   list-style-type: none;
+  text-align: center;
 
 }
 
@@ -246,7 +247,7 @@ nav {
   float: left;
   margin: auto;
   border-right: 1px solid #aaa;
-  padding: 0 20px;
+  padding: 0 10px;;
   text-align: center;
 }
 
@@ -256,7 +257,7 @@ nav {
 
 .sections li a {
   text-decoration: none;
-  color: #ccc;
+  color: #444;
   font: 25px/1 Helvetica, Verdana, sans-serif;
   text-transform: uppercase;
 
@@ -268,7 +269,7 @@ nav {
 }
 
 .sections li a:hover {
-  color: #666;
+  color: #aaa;
 }
 
 .sections li.active a {
@@ -282,7 +283,7 @@ nav {
 
 
 body {
-  background-color: #444;
+  background-color: #ddd;
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
@@ -338,7 +339,7 @@ h5 {
   position: relative;
   border-radius: 6px;
   box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.4);
-  margin: auto;
+  margin-left: 230px;
 }
 #tw-widget1 a {
   text-decoration: none;
@@ -355,6 +356,7 @@ h5 {
   display: block;
   top: 0;
   text-align: left;
+
 }
 #tw-widget1 .user a span[data-scribe="element:name"] {
   position: absolute;
@@ -363,6 +365,8 @@ h5 {
   font-size: 16px;
   color: white;
   font-weight: bold;
+  
+
 }
 #tw-widget1 .user a span[data-scribe="element:screen_name"] {
   position: absolute;
@@ -377,8 +381,9 @@ h5 {
   padding: 20px;
   color: #4d4d4d;
   font-weight: bold;
-  background: #fff
+  background: #fff;
 }
+
 #tw-widget1 .tweet a {
   color: #4d4d4d;
   font-weight: bold;
@@ -463,9 +468,13 @@ img.center {
 
 .para {
   text-align: center;
-  width: 800px;
+  width: 700px;
   margin: 300px;
   margin-top: 210px;
-  color: white;
+  color: #333;
   font-size: 20px;
+}
+
+html {
+  overflow-x: hidden;
 }
