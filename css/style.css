@@ -269,7 +269,7 @@ nav {
 }
 
 .sections li a:hover {
-  color: #aaa;
+  color: #dc970f;
 }
 
 .sections li.active a {
@@ -365,7 +365,7 @@ h5 {
   font-size: 16px;
   color: white;
   font-weight: bold;
-  
+
 
 }
 #tw-widget1 .user a span[data-scribe="element:screen_name"] {
