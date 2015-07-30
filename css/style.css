@@ -1,3 +1,7 @@
+@media screen and (max-width: 1020px) { #body, #nav, #para, #img{
+  float:none;
+  width: auto;
+  } }
 
 @import url(http://weloveiconfonts.com/api/?family=Brandico);
 /* Brandico */
