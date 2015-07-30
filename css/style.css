@@ -232,6 +232,7 @@ nav {
   margin-left: 470px;
   margin-bottom: 30px;
   margin-top: 40px;
+  width: auto;
 
 }
 
@@ -287,6 +288,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
+  width:auto;
 }
 
 h2 {

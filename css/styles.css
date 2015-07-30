@@ -159,6 +159,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
+  width:980px;
 }
 
 * {
@@ -171,6 +172,7 @@ nav {
   margin-left: 470px;
   margin-bottom: 30px;
   margin-top: 40px;
+  width: auto;
 
 }
 
@@ -223,9 +225,7 @@ html {
 
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 
-body {
-  margin: 5em;
-}
+
 
 img.logo {
   text-align: center;
@@ -244,4 +244,13 @@ img.logo {
   margin-left: 26%;
   margin-top: 100px;
   letter-spacing: 2px;
+}
+img#logo1 {
+
+  margin-left: 355px;
+  margin-top: 200px;
+
+}
+
+
 }
