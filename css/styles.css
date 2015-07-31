@@ -1,11 +1,6 @@
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-@media screen and (max-width: 1020px) {.social-icons, #body, #nav, #para, #img{
-  float:none;
-  width: auto;
-  } }
-body {
-  margin: 5em;
-}
+
+
 
 .social-icons {
   list-style-type: none;
@@ -51,22 +46,6 @@ body {
   background-color: hsl(195, 100%, 60%);
 }
 
-.fa-google-plus {
-  color: hsl(7, 71%, 55%);
-  border-color: hsl(7, 71%, 55%);
-}
-
-.fa-google-plus:hover {
-  background-color: hsl(7, 71%, 55%);
-}
-
-.fa-linkedin {
-  color: hsl(199, 85%, 36%);
-  border-color: hsl(199, 85%, 36%);
-}
-
-.fa-linkedin:hover {
-  background-color: hsl(199, 85%, 36%);
 }
 
 .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus:hover, .fa-linkedin:hover {
@@ -162,7 +141,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  width:980px;
+
 }
 
 * {
@@ -221,9 +200,7 @@ nav {
   color: #333;
 }
 
-html {
-  overflow-x: hidden;
-}
+
 
 
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
@@ -241,7 +218,7 @@ img.logo {
 
 .para {
   text-align: center;
-  width: 700px;
+  width: 400px;
   color: #333;
   font-size: 20px;
   margin-left: 26%;
